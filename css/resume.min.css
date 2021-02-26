@@ -84,7 +84,8 @@ p.lead {
 }
 
 #sideNav .navbar-toggler: focus {
-	outline-color: #d48a6e
+  outline: none;
+  outline-color: #d48a6e
 }
 
 @media (min-width: 992px) {
@@ -110,6 +111,13 @@ p.lead {
 	max-height: 10rem;
 	border: .5rem solid rgba(255,255,255,.2)
 	}
+
+  #sideNav .navbar-brand .img-profile:hover {
+  max-width: 11rem;
+  max-height: 11rem;
+  border: .6rem solid rgba(255,255,255,.5);
+  box-shadow: 0px 0px 20px black;
+  }
 
 	#sideNav .navbar-collapse {
 	display: flex;
@@ -372,4 +380,69 @@ ab:hover {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
+}
+
+@media(prefers-color-scheme: dark){
+  .bg-primary {
+  background-color: #222831 !important}
+  .text-primary {
+  color: #33d679 !important}
+  a {
+  color:#33d679}
+  body{
+    background-color: #222831;
+    color: #FFFFFF}
+  h1{
+  color:#FFFFFF;}
+  h2{
+  color:#33d679;
+ }
+  h3,h4,h5,h6{color:#FFFFFF;
+}
+ div.subheading.mb-3 {color:#868e96;
+}
+ #sideNav .navbar-nav .nav-item .nav-link {
+   border-right: 2px solid #868e9c;}
+ }
+
+@media (max-width: 992px) and (prefers-color-scheme: dark){
+   #sideNav .navbar-nav .nav-item .nav-link {
+   border-bottom: 2px solid #868e9c;
+  border-right: 0px solid #868e9c;}
+}
+
+
+
+/* Style buttons */
+.btn2 {
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  height: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  right: 30px;
+  bottom:20px;
+  display: none;
+}
+.btn2:focus {
+    outline: none;
+}
+/* Darker background on mouse-over */
+.btn2:hover {
+  background-color: #33d679;
+  outline-color: #fff;
+}
+
+@media (max-width: 992px) {
+  .btn2 {
+        display:inline-block;
+        align-content: center;
+  }
 }
