@@ -83,9 +83,9 @@ p.lead {
 	text-transform: uppercase
 }
 
-#sideNav .navbar-toggler: focus {
+#sideNav .navbar-toggler:focus {
   outline: none;
-  outline-color: #d48a6e
+  outline-color : #d48a6e;
 }
 
 @media (min-width: 992px) {
@@ -109,14 +109,16 @@ p.lead {
 	#sideNav .navbar-brand .img-profile {
 	max-width: 10rem;
 	max-height: 10rem;
-	border: .5rem solid rgba(255,255,255,.2)
+	border: .5rem solid rgba(255,255,255,.2);
+  box-shadow: 0px 0px 5px black;
 	}
 
   #sideNav .navbar-brand .img-profile:hover {
   max-width: 11rem;
   max-height: 11rem;
-  border: .6rem solid rgba(255,255,255,.5);
+  border: solid rgba(255,255,255,.5);
   box-shadow: 0px 0px 20px black;
+  transition: 0.4s ease-out;
   }
 
 	#sideNav .navbar-collapse {
@@ -444,5 +446,160 @@ ab:hover {
   .btn2 {
         display:inline-block;
         align-content: center;
+  }
+}
+
+
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  top: 20px;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  background-color: #222831;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  background-color: #15202B;
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+.card:hover svg{
+  fill: #15202B;
+}
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: #33d679;
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 150px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.stroke {
+  stroke:#33d679;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  display: inline-block;
+  position:absolute;
+  fill: #222831;
+  stroke-width: 4px;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 0;
+  transition: 0.6s ease-out;
+}
+
+.skill_img {
+  display: inline-block;
+  position: relative;
+  margin-left:20px;
+  margin-top: 25px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+@media (max-width: 992px)
+{
+
+  .container {
+    position: relative;
+    height: 1000px;
+    width: 200px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: 0px;
+      margin-top: -100px;
+  }
+  
+  .card:hover {
+    transform: translateY(-50px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 0px;
+    bottom: -50px;
+    transition: 0.4s ease-out;
   }
 }
