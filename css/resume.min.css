@@ -83,7 +83,7 @@ p.lead {
 	text-transform: uppercase
 }
 
-#sideNav .navbar-toggler: focus {
+#sideNav .navbar-toggler :focus {
 	outline-color: #d48a6e
 }
 
@@ -372,9 +372,6 @@ ab:hover {
   max-width: 100%;
   max-height: 100%;
   margin: auto;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 @media(prefers-color-scheme: dark){
@@ -780,4 +777,3 @@ svg {
     width: 100%;
   }
 }
->>>>>>> Stashed changes
