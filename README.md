@@ -2,7 +2,7 @@
 <h1>Portfolio Website for Developers</h1>
 <h4>Based on <a href="https://github.com/startbootstrap/startbootstrap-resume">this template</a>, here is a bit modern looking portfolio website with support for course gallery</h4>
 
-<img href='https://UsamaNavid.com/' src="images/Screenshots.png">
+<img href='https://UsamaNavid.com/' src="images/Demo.jpg">
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
