@@ -5,11 +5,11 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="A mechanical engineering junior with a strong believe in technology.">
+  <meta name="description" content="A mechanical engineering senior with a strong believe in technology.">
   <meta name="author" content="Muhammad Usama Navid">
 
 		<meta property="og:title" content="Usama - A Motivated Mechanical Engineer"/>
-		<meta property="og:image" content="/img/profile2.jpg"/>
+		<meta property="og:image" content="/images/profile2.jpg"/>
 		<meta property="og:description" content="Muhammad Usama Navid is a motivated engineering student studying at UET Lahore. He does data science and loves to do MOOCs."/>
 		<meta property="og:url" content="https://usamanavid.com/" />
 		<meta name="twitter:card" content="Muhammad Usama Navid is a motivated engineering student studying at UET Lahore. He loves MOOCs." />
@@ -54,18 +54,36 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.6.0.js" 
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous">
+</script>
+
+
+
+
 </head>
 
 <body id="page-top">
 
 
 
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image Category:<p></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="" alt=""></div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+  
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Muhammad Usama Navid</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,15 +102,24 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
+        </li><!-- 
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#research">Research</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://meet.usamanavid.com/" target="_blank">Meet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://blog.usamanavid.com/" target="_blank">Blog</a>
         </li>
       </ul>
     </div>
@@ -105,15 +132,15 @@
         <h1 class="mb-0">Muhammad Usama
           <span class="text-primary">Navid</span>
         </h1>
-        <div class="subheading mb-5">+92-316-6531625·
-          <a href="mailto:muqadir1@gmail.com" target="_blank" rel="noopener">muqadir1@gmail.com</a>
+        <div class="subheading mb-5">
+          <a href="mailto:Concaption@gmail.com" target="_blank" rel="noopener">Concaption@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am data driven mechanical engineering upperclassman fascinated by the advancements in the technologies. I have robust believe on the wonders that Industry 4.0 can do in tendum with mechanical engineering. Above all I love MOOCs and sketching. In Hollywood, sci-fi is my genre.</p>
+        <p class="lead mb-5">Hi! 👋 I am a data-driven and detail-oriented mechanical engineering graduate fascinated by the advancements in technologies. I have a robust belief on the wonders that Industry 4.0 can do in tandem with mechanical engineering. Above all, I love MOOCs and sketching. In Hollywood, sci-fi is my genre.</p>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/muqadir1/" target="_blank" rel="noopener">
+          <a href="https://www.linkedin.com/in/concaption/" target="_blank" rel="noopener">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/muqadir1" target="_blank" rel="noopener">
+          <a href="https://github.com/concaption" target="_blank" rel="noopener">
             <i class="fab fa-github"></i>
           </a>
           <a href="https://twitter.com/concaption" target="_blank" rel="noopener">
@@ -122,8 +149,13 @@
           <a href="https://www.facebook.com/concaption" target="_blank" rel="noopener">
             <i class="fab fa-facebook-f"></i>
           </a>
+        </a>
+        <a href="https://wa.usamanavid.com/" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i>
+        </a>
         </div>
-        <div><a href="img/Portfolio.pdf" target="_blank" rel="noopener"> <button class="btn1" href="img/Portfolio.pdf"><i class="fa fa-download"></i>&nbsp Resume</button></a></div>
+        <div><a href="resume/Resume-Usama-Navid.pdf" target="_blank" rel="noopener"> <button class="btn1" href="resume/Resume-Usama-Navid.pdf"><i class="fa fa-download"></i>&nbsp Resume</button></a></div>
+
       </div>
     </section>
 
@@ -132,12 +164,24 @@
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
-
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Procurement Analyst Intern</h3>
+            <div class="subheading mb-3">Roshan Kal Program - PepsiCo Pakistan</div>
+            <p>Remote</p><p>In collaboration with Haidri Beverages Limited, the fluctuation in the price of raw materials (like aluminum cans, crowns, labels, etc.) concerning base materials prices (like aluminum, steel, PP, etc.) was to be analyzed. Cost sheets were prepared for the ten most used materials and it was concluded that all the vendors were giving raw materials at favorable rates with respect to base materials.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jully 2021 - August 2021</span>
+          </div>
+        </div>
+        
+        <div class="mb-2"> VOLUNTEER EXPERIENCE</div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Microsoft Learn Student Ambassador</h3>
             <div class="subheading mb-3">MLSA Program - Microsoft</div>
-            <p>Lahore, Pakistan</p><p>Along with five other student from UET I was selected in Microsoft learn student ambassador program. I aim to learn faclitate and teach technlogy at UET with the help of Microsoft.
+            <p>Lahore, Pakistan</p><p> Bing a part of Microsoft student ambassador program was a wonderful experience for me. It not only helped me boost my networking but also helped me mentor a lot of studnets.
             </p>
           </div>
           <div class="resume-date text-md-right">
@@ -150,7 +194,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Team Lead AI</h3>
             <div class="subheading mb-3">Developer Student Club - UET</div>
-            <p>Lahore, Pakistan</p><p>I am the member of the student developer club since septemeber 2019 and this year I am promoted to AI team lead.
+            <p>Lahore, Pakistan</p><p> Being the team lead of DSC UET, I organized 4 event webinar series on AI in which 70+ students participated.
             </p>
           </div>
           <div class="resume-date text-md-right">
@@ -165,7 +209,7 @@
             	UET Science Society
             </div>
             <p>Lahore, Pakistan</p><p><b>Team Research and Innovation:</b><br>
-Here in the team, I experienced a lot of teamwork. We worked together on different projects. Writing articles, proofreading our magazines, etc. all included a lot of teamwork. I learned here about research methods, Matlab and many more through a daily dose of tech that I and my teammates used to share. Science days were very informative sessions.</p>
+            I got to organize science days as part of the society and now I am working on starting a Multi-deciplinary hackathon exclusively for society members. So, far I have collected dataset for the hackathon.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2019 - Present</span>
@@ -200,7 +244,7 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
             <h3 class="mb-0">University of Engineering and Technology Lahore</h3>
             <div class="subheading mb-3">Bachelor of Science</div>
             <div>Mechanical Engineering</div>
-            <p>GPA: 3.5</p><p>During my freshman year, I realized that in whatever the condition one is in, by challenging and focusing on the goal one can improve and improvise oneself. In the first semester, I got a below-average grade point average of 3.09. For me instead of GPA, not having good learning and proper planning were the things worth worrying about. So, I took progress, punctuality, and better planning as a challenge, and by the grace of Allah Almighty, I was able to get into Dean's List by replacing 9 in my GPA from 3.09 to 3.90 at the end of my freshman year.</p>
+            <p>GPA: 3.4</p><p>During my freshman year, I realized that in whatever the condition one is in, by challenging and focusing on the goal one can improve and improvise oneself. In the first semester, I got a below-average grade point average of 3.09. For me instead of GPA, not having good learning and proper planning were the things worth worrying about. So, I took progress, punctuality, and better planning as a challenge, and by the grace of Allah Almighty, I was able to get into Dean's List by replacing 9 in my GPA from 3.09 to 3.90 at the end of my freshman year.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2017 - September 2021</span>
@@ -225,43 +269,88 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
     </section>
 
     <hr class="m-0">
-<!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Softwares &amp; Tools</div>
+
+
+        <div class="container">
+          <div class="card">
+            <h3 class="title">Autdesk Fusion 360</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke" cx="60" cy="60" r="50"/>
+            </svg>
+            <img class="skill_img" src='images/skills/1.webp'>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="title">Dassault's SolidWorks</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke" cx="60" cy="60" r="50"/>
+            </svg>
+            <img class="skill_img" src='images/skills/2.webp'>
+
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="title">TensorFLow 2.0</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke" cx="60" cy="60" r="50"/>
+            </svg>
+            <img class="skill_img" src='images/skills/3.webp'>
+
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="title">MathWorks Matalab</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle class="stroke" cx="60" cy="60" r="50"/>
+            </svg>
+            <img class="skill_img" src='images/skills/4.webp'>
+            </div>
+          </div>
+        </div>
+        <div class="subheading mb-3">Also have an experience in</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Tensorflow, Keras, &amp; Pytorch</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Solidworks, Fusion 360, AutoCAD, Abaqus, Creo, &amp; Onshape</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Python, Matlab, Markdown, Latex, HTML, &amp; CSS</li>
+        </ul>
+      </div>
+        <!-- 
+        <div class="subheading mb-3">Have also worked in</div>
         
         <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
+        
           <li class="list-inline-item">
             <i class="fab fa-grunt"></i>
           </li>
@@ -288,9 +377,9 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
             <i class="fa-li fa fa-check"></i>
             Agile Development &amp; Scrum</li>
         </ul>
-      </div>
+      --> 
     </section>
-
+<!-- 
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
@@ -301,7 +390,7 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
       </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0">-->
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
@@ -309,26 +398,210 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Udacity Bertlsmann Technology Scholarship 2020 Recipent</li>
+            Udacity Bertelsmann Technology Scholarship 2020 Recipient</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Dean's List UET - Summer 2018 </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Achiever's Scholarship 2017 Reciever - STEP by PGC</li>
+            Achiever's Scholarship 2017 Recipient - STEP by PGC</li>
           <li>
         </ul>
+        See more in Gallery.
       </div>
     </section>
 
-    <hr class="m-0">-->
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="research">
+      <div class="w-100">
+        <h2 class="mb-5">Research</h2>
+
+        <div class="dark">
+          <main class="container1">
+            <article class="postcard dark green">
+              <a class="postcard__img_link" href="images/research/tkr1.webp">
+                <img class="postcard__img" src="images/research/tkr1.webp" alt="Image Title" />
+              </a>
+              <div class="postcard__text">
+                <h1 class="postcard__title green"><ah>Computational prediction of contact pressure for different sizes of knee implants in total knee replacement</ah></h1>
+                <div class="postcard__subtitle small">
+                The 10th International Conference on Biomedical Engineering and Biotechnology (ICBEB 2021)
+                </div>
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt">
+                  Invited for Online Oral Presentation on "Computational prediction of contact pressure for different sizes of knee implants in total knee replacement" in the 10th International Conference on Biomedical Engineering and Biotechnology (ICBEB 2021) scheduled during November 15-18 via Microsoft Teams.
+                </div>
+                <ul class="postcard__tagbox">
+                  <li class="tag__item"><i class="fas fa-tag mr-2"></i>Conference Presentation</li>
+                  <li class="tag__item"><time datetime="2021-04-2 12:00:00"><i class="fas fa-calendar-check mr-2"></i>Accepted April 2</time></li>
+                  <li class="tag__item play green">
+                    <a href="files\ICBEB 2021-Invitation.pdf" ><i class="fas fa-envelope mr-2"></i>Open Invitation</a>
+                  </li>
+                  <li class="tag__item play green">
+                    <a href="https://goo.gl/maps/JQXZmnSfZCz3F6Vw5" ><i class="fas fa-map-marker-alt mr-2"></i>Suzhou, China</a>
+                  </li>
+                  <li class="tag__item play green">
+                    <a href="http://www.icbeb.org/" ><i class="fas fa-globe mr-2"></i>icbeb.org</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article class="postcard dark red">
+              <a class="postcard__img_link" href="images/research/tkr2.wep">
+                <img class="postcard__img" src="images/research/tkr2.webp" alt="Image Title" />	
+              </a>
+              <div class="postcard__text">
+                <h1 class="postcard__title red"><ah>Computational prediction of contact pressure for different sizes of knee implants for total knee replacement</ah></h1>
+                <div class="postcard__subtitle small">
+                  Euro-Global Conference on Biotechnology and Bioengineering (ECBB 2021)
+                </div>
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt">
+                Abstract titled “Computational prediction of contact pressure for different sizes of knee implants for total knee replacement” has been accepted for poster presentation
+                at the Euro-Global Conference on Biotechnology and Bioengineering (ECBB 2021) scheduled during September 06-08, 2021 in Rome, Italy.
+                </div>
+                <ul class="postcard__tagbox">
+                  <li class="tag__item"><i class="fas fa-tag mr-2"></i>Poster Presentation</li>
+                  <li class="tag__item"><time datetime="2021-03-15 12:00:00"><i class="fas fa-calendar-check mr-2"></i>Accepted March 15</time></li>
+                  <li class="tag__item play green">
+                    <a href="files\ECBB 2021-Acceptance.pdf" ><i class="fas fa-envelope mr-2"></i>Open Invitation</a>
+                  </li>
+                  <li class="tag__item play green">
+                    <a href="https://goo.gl/maps/S2DtgYjzpMfMQn4U7" ><i class="fas fa-map-marker-alt mr-2"></i>Rome, Itly</a>
+                  </li>
+                  <li class="tag__item play green">
+                    <a href="https://biotechnology-conferences.magnusgroup.org/" ><i class="fas fa-globe mr-2"></i>magnusgroup.org</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <!--
+            <article class="postcard dark green">
+              <a class="postcard__img_link" href="#">
+                <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+              </a>
+              <div class="postcard__text">
+                <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                <ul class="postcard__tagbox">
+                  <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                  <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                  <li class="tag__item play green">
+                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article class="postcard dark yellow">
+              <a class="postcard__img_link" href="#">
+                <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+              </a>
+              <div class="postcard__text">
+                <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+                <div class="postcard__subtitle small">
+                  <time datetime="2020-05-25 12:00:00">
+                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  </time>
+                </div>
+                <div class="postcard__bar"></div>
+                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                <ul class="postcard__tagbox">
+                  <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                  <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                  <li class="tag__item play yellow">
+                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                  </li>
+                </ul>
+              </div>
+            </article>-->
+          </main>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
+      <div class="w-100">
+        <h2 class="mb-5">Gallery</h2>
+    <div class="wrapper">
+    <!-- filter Items -->
+    <tags>
+      <div class="items">
+        <span class="item active" data-name="All">All</span>
+        <span class="item" data-name="Courses">Courses</span>
+        <span class="item" data-name="Projects">Projects</span>
+        <span class="item" data-name="Badges">Badges</span>
+        <span class="item" data-name="Personal">Personal</span>
+      </div>
+    </tags>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Supply-Chain Planning-Rutgers-University-Coursera-by-Muhammad-Usama-Navid.webp" alt="Supply Chain Planning Rutgers University Coursera by Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Supply-Chain-Operations-Rutgers-University-Coursera-by-Muhammad-Usama-Navid.webp" alt="Supply Chain Operations Rutgers University Coursera by Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Supply-Chain-Logistics-Rutgers-University-Coursera-by-Muhammad-Usama-Navid.webp" alt="Supply Chain Logistics Rutgers University Coursera by Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Neural-Networks-and-Deep-Learning-Coursera-Muhammad-Usama-Navid.webp" alt="Neural-Networks-and-Deep-Learning-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization-Coursera-Muhammad-Usama-Navid.webp" alt="Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Custom-Models-Layers-and-Loss-functions-with-TensorFlow-Coursera-Muhammad-Usama-Navid.webp" alt="Custom Models Layers and Loss functions with TensorFlow Coursera Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Data-Analysis-with-Python-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="Data Analysis with Python IBM Coursera Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Data-Science-Methodology-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="Data-Science-Methodology-IBM-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Data-Visualization-with-Python-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="Data-Visualization-with-Python-IBM-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Tools-for-Data-Science-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="Tools-for-Data-Science-IBM-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Python-for-Data-Science-AI-and-Development-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="Python-for-Data-Science-AI-and-Development-IBM-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/What-is-Data-Science-IBM-Coursera-Muhammad-Usama-Navid.webp" alt="What-is-Data-Science-IBM-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Into-to-Digital-Manufacturing-with-Autodesk-Fusion-360-Coursera-Muahammad-Usama-Navid.webp" alt="Into-to-Digital-Manufacturing-with-Autodesk-Fusion-360-Coursera-Muahammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Introduction-to-Mechanical-Engineering-Design-and-Manufacturing-with-Fusion-360-Autodesk-Muhammad-Usama-Navid.webp" alt="Introduction-to-Mechanical-Engineering-Design-and-Manufacturing-with-Fusion-360-Autodesk-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Modeling-and-Prototyping-for-Product-Designers-Autodesk-Muhammad-Usama-Navid.webp" alt="Modeling-and-Prototyping-for-Product-Designers-Autodesk-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Digital-Manufacturing-and-Design-The-State_university-of-New-York-Muhammad-Usama-Navid.webp" alt="Digital-Manufacturing-and-Design-The-State_university-of-New-York-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Introduction-to-the-Internet-of-Things-and-Embedded-Systems-University-of-California-Irvine-Coursera-Muhammad-Usama-Navid.webp" alt="Introduction-to-the-Internet-of-Things-and-Embedded-Systems-University-of-California-Irvine-Coursera-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/TensorFlow-for-AI-Get-to-Know-TensorFlow-Coursera-Project-Network-Usama-Navid.webp" alt="TensorFlow-for-AI-Get-to-Know-TensorFlow-Coursera-Project-Network-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Certificate-Of-Completion-Smart-Cities-Solving-Urban-Problems-Using-Technology-Muhammad-Usama-Navid.webp" alt="Certificate Of Completion Smart Cities Solving Urban Problems Using Technology Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Matlab-Deep-Learning-Onramp-Muhammad-Usama-Navid.webp" alt="Matlab-Deep-Learning-Onramp-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/Udacity-Bertlsman-Scholarship-Winner-2020-Muhammad-Usama-Navid.webp" alt="Udacity-Bertlsman-Scholarship-Winner-2020-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Badges"><span><img src="images/gallery/New-Student-Ambassador-Microsoft-Muhammad-Usama-Navid.webp" alt="New-Student-Ambassador-Microsoft-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Badges"><span><img src="images/gallery/Microsoft-Innovative-Educator-Muhammad-Usama-Navid.webp" alt="Microsoft-Innovative-Educator-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Badges"><span><img src="images/gallery/Autodesk-Ambassador-Silver-Muhammad-Usama-Navid.webp" alt="Autodesk Ambassador Silver Muhammad Usama Navid"></span></div>
+      <div class="image" data-name="Personal"><span><img src="images/gallery/Football-Match-Mechanical-Engineering-UET.webp" alt="Football-Match-Mechanical-Engineering-UET"></span></div>
+      <div class="image" data-name="Personal"><span><img src="images/gallery/Hult-Prize-UET-2018.webp" alt="Hult-Prize-UET-2018"></span></div>
+      <div class="image" data-name="Personal"><span><img src="images/gallery/usama-navid.webp" alt="usama-navid"></span></div>
+      <div class="image" data-name="Projects"><span><img src="images/gallery/Jeep-3D-Model-Fusion-360-Muhammad-Usama-Navid.webp" alt="Jeep-3D-Model-Fusion-360-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Projects"><span><img src="images/gallery/Shoe-3D-Model-Fusion-360-Muhammad-Usama-Navid.webp" alt="Shoe-3D-Model-Fusion-360-Muhammad-Usama-Navid"></span></div>
+      <div class="image" data-name="Projects"><span><img src="images/gallery/Wapon-3D-Model-Fusion-360-Muhammad-Usama-Navid.webp" alt="Wapon-3D-Model-Fusion-360-Muhammad-Usama-Navid"></span></div>
+      
+
+
+
+  <!--<div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>
+      <div class="image" data-name="Courses"><span><img src="images/gallery/.webp" alt=""></span></div>-->
+
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+
+</section>
 
     <!-- Footer -->
+      <br>
+
+ <div align="center"><a href="resume/Resume-Usama-Navid.pdf" target="_blank" rel="noopener"> <button class="btn2" href="resume/Resume-Usama-Navid.pdf"><i class="fa fa-download"></i>&nbsp Resume</button></a></div>  <br>
 <footer>
 <div class=footer-class>
   <!-- Copyright -->
-  <div class="text-center">© 2020 Copyright<br>Made with love by
-    <a href="http://muqadir1.github.io"  target="_blank" rel="noopener">Usama</a>
+ <div class="text-center">© 2021 Copyright<br>Made with ❤ by
+    <a href="http://usamanavid.com/"  target="_blank" rel="noopener">Usama Navid</a>
   </div><br><br>
   <!-- Copyright -->
 </div>
@@ -346,7 +619,6 @@ Here in the team, I experienced a lot of teamwork. We worked together on differe
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
-
 </body>
 
 </html>
